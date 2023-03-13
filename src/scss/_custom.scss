@@ -1,0 +1,152 @@
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.h-100px {
+  height: 100px;
+}
+
+.font-10px {
+  font-size: 10px !important;
+}
+
+.navbar-brand {
+  cursor: pointer;
+}
+
+// Custom Perfect Scroll Bar
+.ps__rail-y {
+  right: 0 !important;
+  left: unset !important;
+}
+
+.scrollbar-container {
+  height: auto !important;
+}
+
+option {
+  width: 200px !important;
+  text-overflow: ellipsis !important;
+  overflow: hidden !important;
+}
+
+// Fix css of react-bootstrap-table
+.react-bootstrap-table-pagination-list {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.react-bootstrap-table-pagination .col-md-6 {
+  width: 50%;
+}
+
+.react-bootstrap-table th[data-row-selection] {
+  width: 5% !important;
+  text-align: center;
+}
+
+.react-bootstrap-table input[type="checkbox"] {
+  cursor: pointer;
+}
+
+.react-bootstrap-table td {
+  max-width: 100%;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.disabled {
+  pointer-events: none;
+}
+
+.select div[aria-hidden=true] {
+  padding: 4px !important;
+}
+
+input.form-control {
+  height: calc(1.5em + .75rem + 5px) !important;
+}
+
+.form-control:focus {
+  border-color: #9ed4ee;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 163, 234, 0.6);
+}
+
+
+
+
+// Responsive css
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  * {
+    font-size: 11px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  * {
+    font-size: 12px;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  * {
+    font-size: 13px;
+  }
+
+  .sidebar, .sidebar .nav,  .sidebar-nav  {
+    width: 200px !important;
+  }
+
+  .sidebar-minimized .sidebar, .sidebar-minimized .sidebar .nav, .sidebar-minimized .sidebar-nav {
+    width: 50px !important;
+  }
+
+  html:not([dir="rtl"]) .sidebar {
+    margin-left: -200px;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  * {
+    font-size: 14px;
+  }
+
+  .sidebar, .sidebar .nav,  .sidebar-nav   {
+    width: 220px !important;
+  }
+
+  .sidebar-minimized .sidebar, .sidebar-minimized .sidebar .nav, .sidebar-minimized .sidebar-nav {
+    width: 50px !important;
+  }
+
+  html:not([dir="rtl"]) .sidebar {
+    margin-left: -220px;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  * {
+    font-size: 14px;
+  }
+
+  .sidebar, .sidebar .nav,  .sidebar-nav   {
+    width: 220px !important;
+  }
+
+  .sidebar-minimized .sidebar, .sidebar-minimized .sidebar .nav, .sidebar-minimized .sidebar-nav {
+    width: 50px !important;
+  }
+
+
+  html:not([dir="rtl"]) .sidebar {
+    margin-left: -220px;
+  }
+}

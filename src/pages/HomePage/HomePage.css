@@ -1,0 +1,247 @@
+
+.ListService .img-card {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.ListService .card-body h5 {
+  position: relative;
+  top: 20px;
+  left: 20px;
+  z-index: 100;
+  vertical-align: left;
+  padding: 0px;
+}
+
+.ListService .card-body h4 {
+  position: relative;
+  top: 25px;
+  left: 20px;
+  z-index: 100;
+  vertical-align: left;
+  padding: 0px;
+}
+
+body {
+  overflow: hidden;
+}
+
+.default-body {
+  height: 86vh;
+}
+
+.app a:hover {
+  text-decoration: none;
+}
+
+.app-header a:hover {
+  color: #20a8d8 !important;
+}
+
+.app-header a {
+  color: #73818f;
+}
+
+.navbar-nav a.active {
+  color: #20a8d8 !important;
+}
+
+.nav-small a.active {
+  background-color: rgba(167, 203, 232, 0.54);
+}
+
+@media only screen and (max-width: 500px) {
+  .ListService {
+    width: 75%;
+    height: 450px;
+  }
+
+  .qr-barcode {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (min-width: 500px) {
+  .card-body {
+    padding: 20px;
+  }
+
+  .UserSettings {
+    width: 90%;
+  }
+
+  .ListService {
+    width: 75%;
+    height: 650px;
+  }
+
+  .qr-barcode {
+    width: 100px;
+    height: 100px;
+  }
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .card-body {
+    padding: 20px;
+  }
+
+  .card-body h5 {
+    margin-bottom: 0px;
+  }
+
+  .UserSettings {
+    width: 80%;
+  }
+
+  .UserSettings .btn {
+    font-size: 11px;
+  }
+
+  .ListService {
+    width: 75%;
+    height: auto;
+  }
+
+  .ListService .card-body h5 {
+    top: 15px;
+    left: 15px;
+    padding: 0px;
+  }
+
+  .ListService .card-body h4 {
+    top: 20px;
+    left: 15px;
+    padding: 0px;
+  }
+
+  .qr-barcode {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+  .UserSettings {
+    width: 70%;
+  }
+
+  .UserSettings .btn {
+    font-size: 12px;
+  }
+
+  .ListService {
+    width: 95%;
+  }
+
+  .ListService .card-body h5 {
+    top: 15px;
+    left: 15px;
+  }
+
+  .ListService .card-body h4 {
+    top: 20px;
+    left: 15px;
+  }
+
+  .qr-barcode {
+    width: 120px;
+    height: 120px;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .card-body {
+    padding: 20px;
+  }
+
+  .card-body h5 {
+    margin-bottom: 0px;
+  }
+
+  .UserSettings {
+    width: 60%;
+  }
+
+  .UserSettings .btn {
+    font-size: 13px;
+  }
+
+  .ListService {
+    width: 90%;
+  }
+
+  .ListService .card-body h5 {
+    top: 20px;
+    left: 20px;
+  }
+
+  .ListService .card-body h4 {
+    top: 25px;
+    left: 20px;
+  }
+
+  .qr-barcode {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .UserSettings {
+    width: 50%;
+  }
+
+  .UserSettings .btn {
+    font-size: 14px;
+  }
+
+  .ListService {
+    width: 85%;
+  }
+
+  .qr-barcode {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1600px) {
+  .UserSettings {
+    width: 40%;
+  }
+
+  .UserSettings .btn {
+    font-size: 14px;
+  }
+
+  .ListService {
+    width: 75%;
+  }
+
+  .ListService .card-body h5 {
+    top: 25px;
+    left: 25px;
+  }
+
+  .ListService .card-body h4 {
+    top: 35px;
+    left: 25px;
+  }
+
+  .qr-barcode {
+    width: 200px;
+    height: 200px;
+  }
+}

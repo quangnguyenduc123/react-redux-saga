@@ -1,0 +1,42 @@
+{
+  "parser": "babel-eslint",
+  "settings": {
+    "react": {
+      "pragma": "React",  // Pragma to use, default to "React"
+      "version": "16.8.0" // React version. "detect" automatically picks the version you have installed.
+    }
+  },
+  "extends": [
+    "plugin:react/recommended"
+  ],
+  "plugins": [
+    "react"
+  ],
+  "env": {
+    "es6": true,
+    "browser": true,
+    "node": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true,
+      "experimentalObjectRestSpread": true,
+      "impliedStrict": true
+    }
+  },
+  "globals": {
+    "document": true,
+    "window": true,
+    "process": true,
+    "fetch": true
+  },
+  "rules": {
+    "semi": "error",
+    "quotes": ["error", "single"],
+    "react/prop-types": 0,
+    "no-unused-vars": ["error", { "vars": "all", "args": "after-used", "ignoreRestSiblings": false }],
+    "react/display-name": 0
+  }
+}
